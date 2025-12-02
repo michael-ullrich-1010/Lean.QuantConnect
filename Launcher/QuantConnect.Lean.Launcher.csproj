@@ -42,7 +42,6 @@
     <Compile Include="..\Common\Properties\SharedAssemblyInfo.cs" Link="Properties\SharedAssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Michael.Algorithm.CSharp\Michael.Algorithm.CSharp.csproj" />
     <ProjectReference Include="..\..\Brokerages.InteractiveBrokers\QuantConnect.InteractiveBrokersBrokerage\QuantConnect.InteractiveBrokersBrokerage.csproj">
       <Private>True</Private>
     </ProjectReference>
