@@ -98,6 +98,13 @@ namespace QuantConnect
             OrganizationID = Config.Get("job-organization-id");
             Api = Config.Get("api-url", "https://www.quantconnect.com/api/v2/");
             ResultsDestinationFolder = Config.Get("results-destination-folder", Directory.GetCurrentDirectory());
+            var resultsConfig = Config.Get("results-destination-folder-timestamped");
+            if (!string.IsNullOrWhiteSpace(resultsConfig))
+            {
+                var timestamp = System.DateTime.Now.ToString("yyyyMMdd_HHmm");
+                ResultsDestinationFolder = Path.Combine(resultsConfig, timestamp);
+                Directory.CreateDirectory(ResultsDestinationFolder);
+            }
         }
 
         /// <summary>
