@@ -1,0 +1,10 @@
+[
+  {
+    "Symbol": "ALV",
+    "Ticker": "ALV",
+    "SecurityType": "Equity",
+    "Market": "xetra",
+    "PrimaryExchange": "XETRA",
+    "Currency": "EUR"
+  }
+]

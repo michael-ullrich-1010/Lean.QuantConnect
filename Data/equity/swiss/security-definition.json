@@ -1,0 +1,10 @@
+[
+  {
+    "Symbol": "SREN",
+    "Ticker": "SREN",
+    "SecurityType": "Equity",
+    "Market": "swiss",
+    "PrimaryExchange": "SIX",
+    "Currency": "CHF"
+  }
+]
